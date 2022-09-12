@@ -51,7 +51,7 @@ mySearch = function(src: string, sub: string): boolean {
 // indexable types
 // interface StringArra
 
-function calculateDaysBetweenDates(begin, end) {
+function calculateDaysBetweenDates(begin: number, end: number) {
 	let date1 = new Date(begin);
 	let date2 = new Date(end);
 	let timeDiff = Math.abs(date2.getTime() - date1.getTime());
