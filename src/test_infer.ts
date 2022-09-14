@@ -1,6 +1,4 @@
 
-
-
 type fn = () => number
 type fnReturnType = ReturnType<fn> // number
 
@@ -136,3 +134,5 @@ let test_StrFn: StrFn = ["xxx"];
 // const count = ref(2) // Ref<number>
 
 // const count = ref(ref(2)) // Ref<number>
+
+
